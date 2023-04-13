@@ -15,7 +15,7 @@
 	"author": "Krystian AImag Więcek",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://itsnobug.its.future"
+		"url": "https://github.com/goitacademy/parcel-project-template/issues"
 	},
 	"dependencies": {
 		"modern-normalize": "^1.1.0"
