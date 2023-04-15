@@ -1,0 +1,2 @@
+!function(){document.querySelector(".filmList");const e="964358699754c21d74c014b561cf196c";Promise.all([async function(){try{return(await fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${e}&language=en-US`)).json()}catch(e){}}(),async function(t,n=1){try{const t=await fetch(`https://api.themoviedb.org/3/trending/movie/day?api_key=${e}&page=1&language=en-US`);return await t.json()}catch(e){Notify.failure("ERROR",e)}}()]).then((e=>{const[t,n]=e;console.log("all",t.genres,n.results)}))}();
+//# sourceMappingURL=index.667cc9e4.js.map
