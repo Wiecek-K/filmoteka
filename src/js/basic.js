@@ -59,7 +59,7 @@ const prevButton = document.getElementById("prev-button");
 const mql = window.matchMedia("(min-width: 768px)");
 
 const appendPageNumber = (index) => {
-	active = index === currentPage ? "active" : "";
+	const active = index === currentPage ? "active" : "";
 	const markup = ` <li class="pagination-number pagination-button ${active}" page-index="${index}">
    <p>${index}</p>
   </li>`;
