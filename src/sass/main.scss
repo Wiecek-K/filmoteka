@@ -1,0 +1,20 @@
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+/* Components */
+@import './components/variables';
+@import './components/body';
+@import './components/container';
+@import './components/movies-gallery';
+@import './components/base';
+@import './components/icons';
+@import './components/loader';
+@import './components/notification-container';
+
+/* Partials */
+@import './partials/header';
+@import './partials/footer';
+@import './partials/modal-devs';
+@import './partials/button-list';
+@import './partials/modal';
